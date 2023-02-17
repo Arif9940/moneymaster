@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <div class="master">
+        <h1>Money Master</h1>
+        <img src="/image/2108625.png" width="40px" height="40px" alt="">
+       </div>
+    <section class="main">
+        <div class="part-1">
+            <img src="image/imgbig.jpg" width="700px" height="600" alt="">
+        </div>
+
+        <div class="part-2">
+        <div class="income">
+            <h2>Income</h2>
+            <label for="input">Income: <input type="number" id="income-input">
+            </label>
+        </div>
+        <div class="expenses">
+            <h2>Expenses</h2>
+            <label for="input"> Food:   <input min="0" type="number" id="food-input">
+            </label>
+        </div>
+        <div>
+            
+            <label for="input">Rent:   <input min="0" type="number" id="rent-input">
+            </label>
+        </div>
+        <div>
+            <label  for="input">Clothes:<input min="0" type="number" id="cloth-input">
+            </label>
+        </div>
+        <div>
+            <button id="calculate" type="submit">Calculate</button>
+            <h2>Total Expenses: <span id="totalCost"></span> </h2>
+            <h2>Balance:<span id="balance"></span></h2>
+        </div>
+        <div>
+            <label for="input">Save: <input type="number" id="save-value">
+            </label>
+            <button id="save" type="submit">Save</button>
+            <h2>Saving Amount: <span id="saving"></span> </h2>
+            <h2>Remaining Balance: <span id="remainingBalance"></span></h2>
+        </div>
+        </div>
+        
+    </section>
+    
+
+<script src="main.js"></script>
+</body>
+</html>
